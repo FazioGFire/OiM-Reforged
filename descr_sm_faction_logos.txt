@@ -1,0 +1,84 @@
+;; JNF 2021-09-23 - Used to define the indexes for the logos referenced in descr_sm_factions
+;; trying to have multiple logos on a single page caused all logos to revert to the one in the
+;; top left after you moved the camera for the first time. I don't understand it either.
+;; so anyway, one logo per page please
+
+icon	ui/faction_icons/rp.tga
+icon	ui/faction_icons/poland.tga
+icon	ui/faction_icons/lithuania.tga
+icon	ui/faction_icons/courland.tga
+icon	ui/faction_icons/sweden.tga
+icon	ui/faction_icons/russia.tga
+icon	ui/faction_icons/ottomans.tga
+icon	ui/faction_icons/zapoc.tga
+icon	ui/faction_icons/don.tga
+icon	ui/faction_icons/austria.tga
+icon	ui/faction_icons/spaine.tga
+icon	ui/faction_icons/france.tga
+icon	ui/faction_icons/denmark.tga
+icon	ui/faction_icons/england.tga
+icon	ui/faction_icons/portugal.tga
+icon	ui/faction_icons/holland.tga
+icon	ui/faction_icons/venice.tga
+icon	ui/faction_icons/tuscany.tga
+icon	ui/faction_icons/savoy.tga
+icon	ui/faction_icons/pope.tga
+icon	ui/faction_icons/genoa.tga
+icon	ui/faction_icons/sicily.tga
+icon	ui/faction_icons/parma.tga
+icon	ui/faction_icons/mantua.tga
+icon	ui/faction_icons/modena.tga
+icon	ui/faction_icons/trans.tga
+icon	ui/faction_icons/moldavia.tga
+icon	ui/faction_icons/wallachia.tga
+icon	ui/faction_icons/montenegro.tga
+icon	ui/faction_icons/crimea.tga
+icon	ui/faction_icons/nogai.tga
+icon	ui/faction_icons/imereti.tga
+icon	ui/faction_icons/safavids.tga
+icon	ui/faction_icons/saxony.tga
+icon	ui/faction_icons/bavaria.tga
+icon	ui/faction_icons/lorraine.tga
+icon	ui/faction_icons/brandenburg.tga
+icon	ui/faction_icons/palatinate.tga
+icon	ui/faction_icons/wurt.tga
+icon	ui/faction_icons/mecklenburg.tga
+icon	ui/faction_icons/berg.tga
+icon	ui/faction_icons/brunswick.tga
+icon	ui/faction_icons/cath.tga
+icon	ui/faction_icons/prot.tga
+icon	ui/faction_icons/scotland.tga
+icon	ui/faction_icons/hugue.tga
+icon	ui/faction_icons/parliament.tga
+icon	ui/faction_icons/swiss.tga
+icon	ui/faction_icons/barbary.tga
+;
+;
+;
+;
+icon	ui/faction_icons/romans_julii.tga
+icon	ui/faction_icons/romans_brutii.tga
+icon	ui/faction_icons/romans_scipii.tga
+icon	ui/faction_icons/romans_senate.tga
+icon	ui/faction_icons/macedon.tga
+icon	ui/faction_icons/egypt.tga
+icon	ui/faction_icons/seleucid.tga
+icon	ui/faction_icons/carthage.tga
+icon	ui/faction_icons/parthia.tga
+icon	ui/faction_icons/pontus.tga
+icon	ui/faction_icons/gauls.tga
+icon	ui/faction_icons/germans.tga
+icon	ui/faction_icons/britons.tga
+icon	ui/faction_icons/armenia.tga
+icon	ui/faction_icons/dacia.tga
+icon	ui/faction_icons/greek_cities.tga
+icon	ui/faction_icons/numidia.tga
+icon	ui/faction_icons/scythia.tga
+icon	ui/faction_icons/spain.tga
+icon	ui/faction_icons/thrace.tga
+icon	ui/faction_icons/slave.tga
+icon	ui/faction_icons/slave_barbarian.tga
+icon	ui/faction_icons/slave_carthaginian.tga
+icon	ui/faction_icons/slave_greek.tga
+icon	ui/faction_icons/slave_egyptian.tga
+icon	ui/faction_icons/slave_eastern.tga

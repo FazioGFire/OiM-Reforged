@@ -1,0 +1,2779 @@
+;	
+;	This file contains the character profession attributes, the idea being that a 
+;	character has a certain set of skills and a current profession. The character 
+;	is represented by his profession: if he is acting as a general, he will get 
+;	represented as a general of a strat_model dictated by his combat skills.
+;
+;	This file gets parsed on application startup but is not otherwise referred to. 
+;	The data format is thus:
+;
+;	;						indicates a comment ;-)
+;							
+;	type					indicates a new character type
+;
+;								must be followed by id name string (phrase)
+;
+;	faction					indicates one or more factions which use the following
+;								strat_model descriptions, valid entries are these:
+;
+;								romans_julii, romans_brutii, romans_scipii, macedon, 
+;								egypt, seleucid, carthage, parthia, pontus, gauls,  
+;								germans, britons, armenia, dacia, greek_cities, numidia,  
+;								scythia, spain, thrace, slave
+;								
+;								if a given faction is not present in a given character 
+;								type listing, that faction cannot use characters of that
+;								type - so not all factions have access to all character 
+;								professions
+;
+;	dictionary				specifies dictionary entry for character type name
+;
+;								note that there is one dictionary entry per type per 
+;								faction set, allowing different names for the same 
+;								character type - ie a diplomat barabarian could be a 
+;								'chieftain', while a roman might be a 'legatus'
+;
+;	strat_model				model to represent the character on the strategy map
+;
+;	battle_model			model to represent the character on the battle map (optional)
+;	battle_equip			equipment character has on the battle field must be followed by a  weapon type,
+;							(not missile weapon type) and armour type
+;
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+starting_action_points	80
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+type			named character
+
+actions			moving_normal, moving_quickmarch, garrison, assault, attack, besiege, entrench, ambush, diplomacy, bribe, exchange, building_fort, building_watchtower
+wage_base		200
+
+faction			rp
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			poland
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			lithuania
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			courland
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			sweden
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			russia
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			ottomans
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			zapoc
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			don
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			austria
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			spaine
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			france
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			denmark
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			england
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			portugal
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			holland
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			venice
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			tuscany
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			savoy
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			pope
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			genoa
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			sicily
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			trans
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			moldavia
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			wallachia
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			montenegro
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			crimea
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			nogai
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			imereti
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			parma
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			mantua
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			modena
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			safavids
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			saxony
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			bavaria
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			lorraine
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			brandenburg
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			palatinate
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			wurt
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			mecklenburg
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			berg
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			cath
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			prot
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			brunswick
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hugue
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			scotland
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			parliament
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			swiss
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			barbary
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction			romans_julii
+dictionary		15
+strat_model		sm_roman_general
+battle_model	roman_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_brutii
+dictionary		15
+strat_model		sm_roman_general
+battle_model	roman_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_scipii
+dictionary		15
+strat_model		sm_roman_general
+battle_model	roman_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_senate
+dictionary		15
+strat_model		sm_roman_general
+battle_model	roman_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			macedon
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			egypt
+dictionary		2
+strat_model		sm_egypt_general
+battle_model	egyptian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			seleucid
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			carthage
+dictionary		1
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			parthia
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			pontus
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gauls
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germans
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britons
+dictionary		2
+strat_model		sm_barb_general
+battle_model	celt_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			armenia
+dictionary		2
+strat_model		sm_eastern_general
+battle_model	east_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dacia
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			greek_cities
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			numidia
+dictionary		2
+strat_model		sm_carthage_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			scythia
+dictionary		2
+strat_model		sm_barb_general
+battle_model	german_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			spain
+dictionary		2
+strat_model		sm_barb_general
+battle_model	carthaginian_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			thrace
+dictionary		2
+strat_model		sm_greek_general
+battle_model	greek_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			slave
+dictionary		2
+strat_model		sm_rebel_general
+battle_model	slave_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+type			general
+
+actions	moving_normal, moving_quickmarch, garrison, assault, attack, besiege, entrench, ambush, exchange
+wage_base		0
+
+faction			rp
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			poland
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			lithuania
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			courland
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			sweden
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			russia
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			ottomans
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			zapoc
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			don
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			austria
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			spaine
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			france
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			denmark
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			england
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			portugal
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			holland
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			venice
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			tuscany
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			savoy
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			pope
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			genoa
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			sicily
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			trans
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			moldavia
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			wallachia
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			montenegro
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			crimea
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			nogai
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			imereti
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			parma
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			mantua
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			modena
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			safavids
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			saxony
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			bavaria
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			lorraine
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			brandenburg
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			palatinate
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			wurt
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			mecklenburg
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			berg
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			cath
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			prot
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			brunswick
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hugue
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			scotland
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			parliament
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			swiss
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			barbary
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/barbarian/portraits/captain_card_gaul.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_egypt_lesser_general
+battle_model	egyptian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	carthaginian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_eastern_lesser_general
+battle_model	east_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_carthage_lesser_general
+battle_model	carthaginian_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	german_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_barb_lesser_general
+battle_model	celt_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_greek_lesser_general
+battle_model	greek_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_general_celt.tga
+strat_model		sm_rebel_lesser_general
+battle_model	slave_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			spy
+
+actions			moving_normal, spying
+wage_base		100
+
+faction			rp
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			poland
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			lithuania
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			courland
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			sweden
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			russia
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			ottomans
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			zapoc
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			don
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			austria
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			spaine
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			france
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			denmark
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			england
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			portugal
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			holland
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			venice
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			tuscany
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			savoy
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			pope
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			genoa
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			sicily
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			trans
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			moldavia
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			wallachia
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			montenegro
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			crimea
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			nogai
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			imereti
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			parma
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			mantua
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			modena
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			safavids
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			saxony
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			lorraine
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			bavaria
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			brandenburg
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			palatinate
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			wurt
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			mecklenburg
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			cath
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			berg
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			prot
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			brunswick
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			hugue
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			scotland
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			parliament
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			swiss
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			barbary
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			germans
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			britons
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			spain
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+type			assassin
+
+actions			moving_normal, assassinate, sabotage
+wage_base		200
+
+faction			rp
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			poland
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			lithuania
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			courland
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			sweden
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			russia
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			ottomans
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			zapoc
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			don
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			austria
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			spaine
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			france
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			denmark
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			england
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			portugal
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			holland
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			venice
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			tuscany
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			savoy
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			pope
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			genoa
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			sicily
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			trans
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			moldavia
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			wallachia
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			montenegro
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			crimea
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			nogai
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			imereti
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			parma
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			mantua
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			modena
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			safavids
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			saxony
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			bavaria
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			lorraine
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			brandenburg
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			palatinate
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			wurt
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			mecklenburg
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			berg
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			cath
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			prot
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			brunswick
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			hugue
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			scotland
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			parliament
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			swiss
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			barbary
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			germans
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			britons
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			spain
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+type			diplomat
+
+actions			moving_normal, diplomacy, bribe 
+wage_base		50
+
+faction			rp
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			poland
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			lithuania
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			courland
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			sweden
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			russia
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			ottomans
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			zapoc
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			don
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			austria
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			spaine
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			france
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			denmark
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			england
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			portugal
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			holland
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			venice
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			tuscany
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			savoy
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			pope
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			genoa
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			sicily
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			trans
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			moldavia
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			wallachia
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			montenegro
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			crimea
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			nogai
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			imereti
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			parma
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			mantua
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			modena
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			safavids
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			saxony
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			bavaria
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			lorraine
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			wurt
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			palatinate
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			brandenburg
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			cath
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			prot
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			mecklenburg
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			berg
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			brunswick
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			scotland
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			hugue
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			parliament
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			swiss
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			barbary
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+
+faction			slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		diplomat
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			merchant
+
+actions			moving_normal
+wage_base		0
+
+faction			rp
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			poland
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			lithuania
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			courland
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			sweden
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			russia
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			ottomans
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			zapoc
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			don
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			austria
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			spaine
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			france
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			denmark
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			england
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			portugal
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			holland
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			venice
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			tuscany
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			savoy
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			pope
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			genoa
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			sicily
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			trans
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			moldavia
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			wallachia
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			montenegro
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			crimea
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			nogai
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			imereti
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			parma
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			mantua
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			modena
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			safavids
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			saxony
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			bavaria
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			lorraine
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			brandenburg
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			palatinate
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			wurt
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			berg
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			mecklenburg
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			cath
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			prot
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			brunswick
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			hugue
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			scotland
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			parliament
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			swiss
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			barbary
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+faction			slave
+dictionary		2
+strat_card		data/ui/barbarian/agents/card_diplo_barb.tga
+strat_model		merchant
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type			admiral
+
+actions			moving_normal, quick_sail, blockade, disembark, exchange
+wage_base		50
+
+faction			rp
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			poland
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			lithuania
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			courland
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			sweden
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			russia
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			ottomans
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			zapoc
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			don
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			austria
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			spaine
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			france
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			denmark
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			england
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			portugal
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			holland
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			venice
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			tuscany
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			savoy
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			pope
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			genoa
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			sicily
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			trans
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			moldavia
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			wallachia
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			montenegro
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			crimea
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			nogai
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			imereti
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			parma
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			mantua
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			modena
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			safavids
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			saxony
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			bavaria
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			lorraine
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			brandenburg
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			wurt
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			palatinate
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			cath
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			prot
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			berg
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			mecklenburg
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			brunswick
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			hugue
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			scotland
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			parliament
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			swiss
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			barbary
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+faction			romans_julii
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			romans_brutii
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		brutii_admiral
+
+faction			romans_scipii
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		scipii_admiral
+
+faction			romans_senate
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		senate_admiral
+
+faction			macedon
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		macedon_admiral
+
+faction			egypt
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		egypt_admiral
+
+faction			seleucid
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		seleucid_admiral
+
+faction			carthage
+dictionary		1
+strat_card		data/ui/carthaginian/agents/temp_admiral.tga
+strat_model		carthage_admiral
+
+faction			parthia
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		parthia_admiral
+
+faction			pontus
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		pontus_admiral
+
+faction			gauls
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		gaul_admiral
+
+faction			germans
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		german_admiral
+
+faction			britons
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		briton_admiral
+
+faction			armenia
+dictionary		2
+strat_card		data/ui/eastern/agents/temp_admiral.tga
+strat_model		armenia_admiral
+
+faction			dacia
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		dacia_admiral
+
+faction			greek_cities
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		greek_cities_admiral
+
+faction			numidia
+dictionary		2
+strat_card		data/ui/egyptian/agents/temp_admiral.tga
+strat_model		numidia_admiral
+
+faction			scythia
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		scythia_admiral
+
+faction			spain
+dictionary		2
+strat_card		data/ui/barbarian/agents/temp_admiral.tga
+strat_model		spain_admiral
+
+faction			thrace
+dictionary		2
+strat_card		data/ui/greek/agents/temp_admiral.tga
+strat_model		thrace_admiral
+
+faction			slave
+dictionary		2
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		slave_admiral
