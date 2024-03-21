@@ -343,6 +343,42 @@ strat_model		sm_roman_general
 battle_model	rp_hetman
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			fronde
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			catalonia
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			jacobites
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hetman
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			lucca
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			ragusa
+dictionary		15
+strat_model		sm_roman_general
+battle_model	rp_hetman
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 
 
 
@@ -824,6 +860,48 @@ strat_model		sm_roman_lesser_general
 battle_model	roman_lesser_general
 battle_equip	gladius, chainmail shirt helmet and rectangular shield
 
+faction			fronde
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			catalonia
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			jacobites
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			hetman
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			lucca
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
+faction			ragusa
+dictionary		15
+strat_card		data/ui/roman/portraits/captain_card_julii.tga
+strat_model		sm_roman_lesser_general
+battle_model	roman_lesser_general
+battle_equip	gladius, chainmail shirt helmet and rectangular shield
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -1226,6 +1304,36 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_spy.tga
 strat_model		spy
 
+faction			fronde
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			catalonia
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			jacobites
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			hetman
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			lucca
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
+faction			ragusa
+dictionary		15
+strat_card		data/ui/roman/agents/card_spy.tga
+strat_model		spy
+
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 faction			romans_julii
@@ -1582,6 +1690,36 @@ strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
 
 faction			barbary
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			fronde
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			catalonia
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			jacobites
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			hetman
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			lucca
+dictionary		15
+strat_card		data/ui/roman/agents/card_assassin.tga
+strat_model		assassin
+
+faction			ragusa
 dictionary		15
 strat_card		data/ui/roman/agents/card_assassin.tga
 strat_model		assassin
@@ -1948,6 +2086,37 @@ dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		diplomat
 
+faction			fronde
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			catalonia
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			jacobites
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			hetman
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			lucca
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+faction			ragusa
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		diplomat
+
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -2304,6 +2473,36 @@ strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		merchant
 
 faction			barbary
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			fronde
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			catalonia
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			jacobites
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			hetman
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			lucca
+dictionary		15
+strat_card		data/ui/roman/agents/card_diplo_rome.tga
+strat_model		merchant
+
+faction			ragusa
 dictionary		15
 strat_card		data/ui/roman/agents/card_diplo_rome.tga
 strat_model		merchant
@@ -2667,6 +2866,36 @@ strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		julii_admiral
 
 faction			barbary
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			fronde
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			catalonia
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			jacobites
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			hetman
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			lucca
+dictionary		15
+strat_card		data/ui/roman/agents/temp_admiral.tga
+strat_model		julii_admiral
+
+faction			ragusa
 dictionary		15
 strat_card		data/ui/roman/agents/temp_admiral.tga
 strat_model		julii_admiral

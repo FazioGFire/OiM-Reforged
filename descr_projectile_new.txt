@@ -455,6 +455,43 @@ effect_only
 ;model           data/models_missile/sling_stone.cas, max
 
 
+projectile musket_above 
+;destroy_after_max_range_percent_and_variation   33 92
+;destroy_after_max_range_percent_and_variation   33   92
+;effect 			small_arrow_trail_set
+effect			musket ;effect_only
+effect_offset		-3
+damage			0
+radius			0.2
+accuracy_vs_units		0.30
+affected_by_rain
+min_angle		-60 
+max_angle		40 
+velocity		110
+ground_shatter
+display			aimed
+effect_only 
+;model           data/models_missile/sling_stone.cas, max
+
+
+projectile musket_below 
+;destroy_after_max_range_percent_and_variation   33 92
+;destroy_after_max_range_percent_and_variation   33   92
+;effect 			small_arrow_trail_set
+effect			musket ;effect_only
+effect_offset		-3
+damage			0
+radius			0.2
+accuracy_vs_units		0.40
+affected_by_rain
+min_angle		-60 
+max_angle		40 
+velocity		110
+ground_shatter
+display			aimed
+effect_only 
+;model           data/models_missile/sling_stone.cas, max
+
 projectile salvo
 ;33 92
 ;destroy_after_max_range_percent_and_variation   33   92
@@ -482,7 +519,26 @@ effect			musket ;effect_only
 effect_offset		-3
 damage			0
 radius			0.2
-accuracy_vs_units		0.42
+accuracy_vs_units		0.41
+affected_by_rain
+min_angle		-60 
+max_angle		40 
+velocity		100
+ground_shatter
+display			aimed
+effect_only 
+;model           data/models_missile/sling_stone.cas, max
+
+
+projectile arquebus
+;33 92
+;destroy_after_max_range_percent_and_variation   33   92
+;effect 			small_arrow_trail_set
+effect			musket ;effect_only
+effect_offset		-3
+damage			0
+radius			0.2
+accuracy_vs_units		0.44
 affected_by_rain
 min_angle		-60 
 max_angle		40 

@@ -360,6 +360,46 @@ rebels_texture		models/textures/standard_slave.tga
 routing_texture		models/textures/standard_routing.tga
 ally_texture		models/textures/standard_julii_ally.tga
 
+faction				fronde
+standard_texture	models/textures/standard_julii.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_julii_ally.tga
+
+faction				catalonia
+standard_texture	models/textures/standard_julii.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_julii_ally.tga
+
+faction				jacobites
+standard_texture	models/textures/standard_julii.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_julii_ally.tga
+
+faction				hetman
+standard_texture	models/textures/standard_julii.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_julii_ally.tga
+
+faction				lucca
+standard_texture	models/textures/standard_julii.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_julii_ally.tga
+
+faction				ragusa
+standard_texture	models/textures/standard_julii.tga
+rebels_texture		models/textures/standard_slave.tga
+routing_texture		models/textures/standard_routing.tga
+ally_texture		models/textures/standard_julii_ally.tga
+
+
+
+
+
 
 
 

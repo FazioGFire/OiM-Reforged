@@ -3673,7 +3673,458 @@
 		"allow reproduction": true,
 	},
 
+
+
+		"fronde":
+	{
+		;;name and description
+		"string":      "FRONDE",
+		"description": "FRONDE_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "roman",
+		"ethnicity": "mediterranean",
+
+		;;tags for faction groups
+		"tags": [ ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "romans_julii_men",
+			"women":    "roman_women",
+			"surnames": "romans_julii_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/fronde.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       0,
+			"rebel standard index": 20,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       48,
+			"rebel logo index": 20,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_julii.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_slaves.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  217, 168,  13,  ],
+			"secondary": [  217,   168,   13,   ],
+
+			"family tree":
+			{
+				"background":      [  96,  17,  15,  ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/julii_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/julii_outro.wmv",
+			"defeat": "data/fmv/lose/julii_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default battle ai personality": "default_personality",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+
+
+	"catalonia":
+	{
+		;;name and description
+		"string":      "CATALONIA",
+		"description": "CATALONIA_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "roman",
+		"ethnicity": "mediterranean",
+
+		;;tags for faction groups
+		"tags": [ ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "romans_julii_men",
+			"women":    "roman_women",
+			"surnames": "romans_julii_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/catalonia.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       0,
+			"rebel standard index": 20,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       49,
+			"rebel logo index": 20,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_julii.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_slaves.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  217, 168,  13,  ],
+			"secondary": [  217,   168,   13,   ],
+
+			"family tree":
+			{
+				"background":      [  96,  17,  15,  ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/julii_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/julii_outro.wmv",
+			"defeat": "data/fmv/lose/julii_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default battle ai personality": "default_personality",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+
+
+		"jacobites":
+	{
+		;;name and description
+		"string":      "JACOBITES",
+		"description": "JACOBITES_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "roman",
+		"ethnicity": "mediterranean",
+
+		;;tags for faction groups
+		"tags": [ ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "romans_julii_men",
+			"women":    "roman_women",
+			"surnames": "romans_julii_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/jacobites.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       0,
+			"rebel standard index": 20,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       50,
+			"rebel logo index": 20,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_julii.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_slaves.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  217, 168,  13,  ],
+			"secondary": [  217,   168,   13,   ],
+
+			"family tree":
+			{
+				"background":      [  96,  17,  15,  ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/julii_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/julii_outro.wmv",
+			"defeat": "data/fmv/lose/julii_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default battle ai personality": "default_personality",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+
+
+	"hetman":
+	{
+		;;name and description
+		"string":      "HETMAN",
+		"description": "HETMAN_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "roman",
+		"ethnicity": "mediterranean",
+
+		;;tags for faction groups
+		"tags": [ ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "romans_julii_men",
+			"women":    "roman_women",
+			"surnames": "romans_julii_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/hetman.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       0,
+			"rebel standard index": 20,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       51,
+			"rebel logo index": 20,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_julii.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_slaves.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  217, 168,  13,  ],
+			"secondary": [  217,   168,   13,   ],
+
+			"family tree":
+			{
+				"background":      [  96,  17,  15,  ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/julii_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/julii_outro.wmv",
+			"defeat": "data/fmv/lose/julii_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default battle ai personality": "default_personality",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+
+"lucca":
+	{
+		;;name and description
+		"string":      "LUCCA",
+		"description": "LUCCA_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "roman",
+		"ethnicity": "mediterranean",
+
+		;;tags for faction groups
+		"tags": [ ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "romans_julii_men",
+			"women":    "roman_women",
+			"surnames": "romans_julii_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/lucca.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       0,
+			"rebel standard index": 20,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       52,
+			"rebel logo index": 20,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_julii.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_slaves.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  217, 168,  13,  ],
+			"secondary": [  217,   168,   13,   ],
+
+			"family tree":
+			{
+				"background":      [  96,  17,  15,  ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/julii_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/julii_outro.wmv",
+			"defeat": "data/fmv/lose/julii_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default battle ai personality": "default_personality",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+
+	"ragusa":
+	{
+		;;name and description
+		"string":      "RAGUSA",
+		"description": "RAGUSA_DESCR",
+
+		;;culture and (default?) character ethnicity
+		"culture":   "roman",
+		"ethnicity": "mediterranean",
+
+		;;tags for faction groups
+		"tags": [ ],
+
+		;;namelists
+		"namelists":
+		{
+			"men":      "romans_julii_men",
+			"women":    "roman_women",
+			"surnames": "romans_julii_surnames",
+		},
+
+		"logos":
+		{
+			;;logo to use in the loading screens (seperate as sprite sheets aren't loaded at that point)
+			"loading screen icon": "data/ui/faction_icons/ragusa.tga",
+
+			;;standard index as declared in descr_standards (4 per page)
+			"standard index":       0,
+			"rebel standard index": 20,
+
+			;;logo index as declared in descr_sm_faction_logos (1 per page)
+			"logo index":       52,
+			"rebel logo index": 20,
+
+			;;flag models to be used on the strat map when a settlement is unoccupied
+			"strat symbol model":       "data/models_strat/symbol_julii.CAS",
+			"strat rebel symbol model": "data/models_strat/symbol_slaves.CAS",
+		},
+
+		;;faction colours (some base game factions may have hardcoded overrides)
+		"colours":
+		{
+			"primary":   [  217, 168,  13,  ],
+			"secondary": [  217,   168,   13,   ],
+
+			"family tree":
+			{
+				"background":      [  96,  17,  15,  ],
+				"font":            [  255, 255, 255, ],
+
+				"selected line":   [  255, 255, 255, ],
+				"unselected line": [  200, 187, 187, ],
+			},
+		},
+
+		"movies":
+		{
+			;;movie to play when starting a campaign
+			"intro": "data/fmv/intros/julii_intro_1080p.wmv",
+
+			;;movie to play when this faction wins or is defeated, respectively
+			"victory": "data/fmv/victory/julii_outro.wmv",
+			"defeat": "data/fmv/lose/julii_eliminated.wmv",
+		},
+
+		"available in custom battles": true,
+		"prefer naval invasions": false,
+		"default battle ai personality": "default_personality",
+	
+		;;allow this faction to have a functioning family tree
+		"allow reproduction": true,
+	},
+
+
+
 ;-
+;last logo index 52
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	"romans_julii":
 	{

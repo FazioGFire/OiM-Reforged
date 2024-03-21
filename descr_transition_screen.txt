@@ -1,0 +1,75 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;	format:
+;	-------------------------------------------------------------------------
+;
+;		quotes
+;
+;			quote		<quote>
+;			[ trans		<translation>	]
+;			[ quoted	<person quoted>	]
+;
+;			...
+;
+;	-------------------------------------------------------------------------
+;
+;	The quote, translation, and quoted are now labels into a localised text file
+;   If you add new quotes, then the labels should be added to data/descr_quotes_lookup.txt", 
+;   and the strings added to data/text/quotes.txt
+;
+;   All the old 'labels' have been kept in the format here as it was easier, but in general
+;	labels should contain only the characters a-z, A-Z and '_', '"' will be ignored and any 
+;   other characters will be changed to an underscore during text lookup
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+quotes
+
+
+	quote    "Quote_101"
+	quoted    "Author_101"
+	quote    "Quote_102"
+	quoted    "Author_102"
+	quote    "Quote_103"
+	quoted    "Author_103"
+	quote    "Quote_104"
+	quoted    "Author_104"
+	quote    "Quote_105"
+	quoted    "Author_105"
+	quote    "Quote_106"
+	quoted    "Author_106"
+	quote    "Quote_107"
+	quoted    "Author_107"
+	quote    "Quote_108"
+	quoted    "Author_108"
+	quote    "Quote_109"
+	quoted    "Author_109"
+	quote    "Quote_110"
+	quoted    "Author_110"
+	quote    "Quote_111"
+	quoted    "Author_111"
+	quote    "Quote_112"
+	quoted    "Author_112"
+	quote    "Quote_113"
+	quoted    "Author_113"
+	quote    "Quote_114"
+	quoted    "Author_114"
+	quote    "Quote_115"
+	quoted    "Author_115"
+	quote    "Quote_116"
+	quoted    "Author_116"
+	quote    "Quote_117"
+	quoted    "Author_117"
+	quote    "Quote_118"
+	quoted    "Author_118"
+	quote    "Quote_119"
+	quoted    "Author_119"
+	quote    "Quote_120"
+	quoted    "Author_120"
+	quote    "Quote_121"
+	quoted    "Author_121"
+	quote    "Quote_122"
+	quoted    "Author_122"
+	quote    "Quote_123"
+	quoted    "Author_123"
+	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
