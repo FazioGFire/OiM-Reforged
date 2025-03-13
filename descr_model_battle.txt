@@ -8177,7 +8177,7 @@ model_flexi 	 	 	data/models_unit/hetman.cas, 60
 model_flexi 	 	 	data/models_unit/hetman.cas, max
 
 type rp_pikemen
-skeleton			fs_twohand_spearman, fs_swordsman									
+skeleton			fs_RM_2hspear, fs_swordsman									
 male
 pbr_texture 		data\new_models\Textures/generic_pbr.tga
 texture 			data/models_textures/rp_pikeman.tga
@@ -8188,7 +8188,7 @@ model_flexi 	 	 	data/models_unit/rp_pikeman_lowest.cas, max
 
 
 type rp_musketeers
-skeleton			ntw_inf_ranged_tir_slow, fs_swordsman									
+skeleton			ntw_inf_ranged, fs_swordsman									
 male
 pbr_texture 		data\new_models\Textures/generic_pbr.tga
 texture 			data/models_textures/rp_musketeer.tga
@@ -8199,7 +8199,7 @@ model_flexi 	 	 	data/models_unit/rp_musketeer_lowest.cas, max
 
 
 type haiduks
-skeleton			ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton			ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/magyar_haiduk.tga
@@ -8211,7 +8211,7 @@ model_flexi 	 	 	data/models_unit/haiduk_lowest.cas, max
 
 
 type rp_gorodovoy_cossack
-skeleton			ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton			ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/rp_gorodovoy_cossack.tga
@@ -8267,7 +8267,7 @@ model_flexi 	 	 	data/models_unit/rp_litva_dragun_lowest.cas, max
 
 
 type 	 	 	 	nemec_regiment_musketeers
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_fast_dagger
+skeleton 	 	 	ntw_inf_ranged, fs_fast_dagger
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture 				data/models_textures/rp_poland_nemec_regiment_musketeer.tga
@@ -8281,7 +8281,7 @@ model_flexi 	 	 	data/models_unit/russ_nemec_regiment_musketeer_lowest.cas, max
 
 
 type 	 	 	 	nemec_regiment_pikemen
-skeleton 	 	 	fs_twohand_spearman, fs_swordsman
+skeleton 	 	 	fs_RM_2hspear, fs_swordsman
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture 				data/models_textures/rp_poland_nemec_regiment_pikeman.tga	
@@ -8295,7 +8295,7 @@ model_flexi 	 	 	data/models_unit/russ_nemec_regiment_pikeman_lowest.cas, max
 
 
 type 	 	 	 	rp_militia
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/rp_militia.tga
@@ -8307,7 +8307,7 @@ model_flexi 	 	 	data/models_unit/rp_militia_lowest.cas, max
 
 
 type 	 	 	 	rp_levies                         
-skeleton 	 	 	fs_twohand_spearman
+skeleton 	 	 	fs_RM_2hspear
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/cossacks_peasant.tga
@@ -8315,6 +8315,26 @@ model_flexi 	 	 	data/models_unit/cossacks_peasant_pitchfork_high.cas, 15
 model_flexi 	 	 	data/models_unit/cossacks_peasant_pitchfork_med.cas, 40
 model_flexi 	 	 	data/models_unit/cossacks_peasant_pitchfork_low.cas, 60
 model_flexi 	 	 	data/models_unit/cossacks_peasant_pitchfork_lowest.cas, max
+
+type 	 	 	 	rp_levies_scythe                         
+skeleton 	 	 	fs_2handed
+male
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data/models_textures/cossacks_peasant.tga
+model_flexi 	 	 	data/models_unit/cossacks_peasant_scythe_high.cas, 15
+model_flexi 	 	 	data/models_unit/cossacks_peasant_scythe_med.cas, 40
+model_flexi 	 	 	data/models_unit/cossacks_peasant_scythe_low.cas, 60
+model_flexi 	 	 	data/models_unit/cossacks_peasant_scythe_lowest.cas, max
+
+type 	 	 	 	rp_levies_axe                         
+skeleton 	 	 	fs_2handed
+male
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data/models_textures/cossacks_peasant.tga
+model_flexi 	 	 	data/models_unit/cossacks_peasant_axe_high.cas, 15
+model_flexi 	 	 	data/models_unit/cossacks_peasant_axe_med.cas, 40
+model_flexi 	 	 	data/models_unit/cossacks_peasant_axe_low.cas, 60
+model_flexi 	 	 	data/models_unit/cossacks_peasant_axe_lowest.cas, max
 
 
 type 	 	 	 	rp_poland_dragoons
@@ -8372,7 +8392,7 @@ model_flexi 	 	 	data/models_unit/rp_winged_hussar_late_lowest.cas, max
 
 
 type 	 	 	 	rp_litva_musketeer
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/rp_litva_musketeer.tga
@@ -8405,9 +8425,10 @@ model_flexi 	 	 	data/new_models/EW_New_Pethorcy.cas, max
 
 
 type 	 	 	 	russ_strelec_spear 	 	 	 	 	 	 	 	 	 	
-skeleton 	 	 	fs_twohand_spearman
+skeleton 	 	 	fs_RM_2hspear
 male
-pbr_texture 			data\new_models\Textures/generic_pbr.tga
+;pbr_texture 			data\new_models\Textures/generic_pbr.tga
+pbr_texture 			data/models_textures/russ_strelec_spear.tga
 texture					data/models_textures/russ_strelec_spear.tga
 model_flexi 	 	 	data/models_unit/russ_strelec_spear_high.cas, 15
 model_flexi 	 	 	data/models_unit/russ_strelec_spear_high.cas, 40
@@ -8416,7 +8437,7 @@ model_flexi 	 	 	data/models_unit/russ_strelec_spear_lowest.cas, max
 
 
 type 	 	 	 	russ_krestianin_spear
-skeleton 	 	 	fs_twohand_spearman
+skeleton 	 	 	fs_RM_2hspear
 male
 pbr_texture 			data/models_textures/russ_krestianin.tga
 texture					data/models_textures/russ_krestianin.tga
@@ -8426,7 +8447,7 @@ model_flexi 	 	 	data/models_unit/russ_krestianin_spear_lowest.cas, 60
 model_flexi 	 	 	data/models_unit/russ_krestianin_spear_lowest.cas, max
 
 type 	 	 	 	russ_krestianin_scythe
-skeleton 	 	 	fs_twohand_spearman
+skeleton 	 	 	fs_RM_2hspear
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/russ_krestianin.tga
@@ -8437,7 +8458,7 @@ model_flexi 	 	 	data/models_unit/russ_krestianin_scythe_lowest.cas, max
 
 
 type 	 	 	 	russ_strelec 	 	 	 	 	 	 	 	 	 	 	 	
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_2handed
+skeleton 	 	 	ntw_inf_ranged, fs_2handed
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/russ_strelec.tga
@@ -8470,9 +8491,10 @@ model_flexi 	 	 	data/models_unit/russ_ratnik_lowest.cas, max
 
 
 type 	 	 	 	russ_new_strelec
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_2handed
+skeleton 	 	 	ntw_inf_ranged, fs_2handed
 male
-pbr_texture 			data\new_models\Textures/generic_pbr.tga
+;pbr_texture 			data\new_models\Textures/generic_pbr.tga
+pbr_texture 			data/models_textures/russ_new_strelec.tga
 texture					data/models_textures/russ_new_strelec.tga
 model_flexi 	 	 	data/models_unit/russ_new_strelec_high.cas, 15
 model_flexi 	 	 	data/models_unit/russ_new_strelec_high.cas, 40
@@ -8480,7 +8502,7 @@ model_flexi 	 	 	data/models_unit/russ_new_strelec_low.cas, 60
 model_flexi 	 	 	data/models_unit/russ_new_strelec_lowest.cas, max
 
 type 	 	 	 	russ_strelec_moscow 	 	 	 	 	 	 	 	 	 	 	 
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_2handed
+skeleton 	 	 	ntw_inf_ranged, fs_2handed
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/russ_strelec_moscow.tga
@@ -8492,7 +8514,7 @@ model_flexi 	 	 	data/models_unit/russ_strelec_berdish_low.cas, max
 
 
 type 	 	 	 	russ_gorodovye_cossacks
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/russ_gorodovye_cossacks.tga
@@ -8522,6 +8544,37 @@ model_flexi 	 	 	data/new_models/russ_new_hussar.cas, 15
 model_flexi 	 	 	data/new_models/russ_new_hussar.cas, 40
 model_flexi 	 	 	data/new_models/russ_new_hussar.cas, 60
 model_flexi 	 	 	data/new_models/russ_new_hussar.cas, max
+
+type				russ_new_reitar
+skeleton			OiM_dragun, fs_hc_swordsman
+male
+pbr_texture 			data/new_models/Textures/generic_pbr.tga
+texture 				data/new_models/Textures/russ_reitar.tga
+model_flexi 	 	 	data/new_models/new_russ_reitar_helm.cas, 15
+model_flexi 	 	 	data/new_models/new_russ_reitar_helm.cas, 40
+model_flexi 	 	 	data/new_models/new_russ_reitar_helm.cas, 60
+model_flexi 	 	 	data/new_models/new_russ_reitar_helm.cas, max
+
+type				russ_new_reitar_boyar
+skeleton			OiM_dragun, fs_hc_swordsman
+male
+pbr_texture 			data/new_models/Textures/generic_pbr.tga
+texture 				data/new_models/Textures/russ_reitar_boyar.tga
+model_flexi 	 	 	data/new_models/new_russ_reitar_boyar.cas, 15
+model_flexi 	 	 	data/new_models/new_russ_reitar_boyar.cas, 40
+model_flexi 	 	 	data/new_models/new_russ_reitar_boyar.cas, 60
+model_flexi 	 	 	data/new_models/new_russ_reitar_boyar.cas, max
+
+type				russ_new_reitar_morion
+skeleton			OiM_dragun, fs_hc_swordsman
+male
+pbr_texture 			data/new_models/Textures/generic_pbr.tga
+texture 				data/new_models/Textures/russ_reitar_morion.tga
+model_flexi 	 	 	data/new_models/new_russ_reitar_morion.cas, 15
+model_flexi 	 	 	data/new_models/new_russ_reitar_morion.cas, 40
+model_flexi 	 	 	data/new_models/new_russ_reitar_morion.cas, 60
+model_flexi 	 	 	data/new_models/new_russ_reitar_morion.cas, max
+
 
 
 type 	 	 	 	russ_boyar 	 	 	 	 	 	 	 	 	 	 	 
@@ -8569,8 +8622,8 @@ model_flexi 	 	 	data/models_unit/russ_oprichnik_lowest.cas, max
 
 
 type 	 	 	 	russ_dragun
-;skeleton 	 	 	OiM_dragun, fs_hc_swordsman
-skeleton 	 	 	ntw_inf_ranged, fs_swordsman
+skeleton 	 	 	OiM_dragun, fs_hc_swordsman
+;skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/russ_dragun.tga
@@ -8612,7 +8665,7 @@ model_flexi 	 	 	data/models_unit/euroupe_reitar_high.cas, 40
 model_flexi 	 	 	data/models_unit/euroupe_reitar_lowest.cas, 60
 model_flexi 	 	 	data/models_unit/euroupe_reitar_lowest.cas, max
 
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 type 	 	 	 	eu_reiter
 skeleton 	 	 	OIM_reitar, fs_hc_swordsman
 male
@@ -8624,11 +8677,84 @@ model_flexi 	 	 	data\models_kla\EW_Pol_Reiter.cas, 60
 model_flexi 	 	 	data\models_kla\EW_Pol_Reiter.cas, max
 
 
+type 	 	 	 	new_eu_reiter
+skeleton 	 	 	OIM_reitar, fs_hc_swordsman
+male
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data\new_models\textures/Eu_new_reiters.tga
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4_unarmoured.cas, 15
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4_unarmoured.cas, 40
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4_unarmoured.cas, 60
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4_unarmoured.cas, max
+
+type 	 	 	 	new_eu_reiter_buffcoat
+skeleton 	 	 	OIM_reitar, fs_hc_swordsman
+male
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data\new_models\textures/Eu_new_reiters_buffcoat.tga
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4_unarmoured.cas, 15
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4_unarmoured.cas, 40
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4_unarmoured.cas, 60
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4_unarmoured.cas, max
+
+type 	 	 	 	new_eu_reiter_cuirass
+skeleton 	 	 	OIM_reitar, fs_hc_swordsman
+male
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data\new_models\textures/Eu_new_reiters_cuirass.tga
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4.cas, 15
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4.cas, 40
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4.cas, 60
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_4.cas, max
+
+type 	 	 	 	new_eu_reiter_lobster
+skeleton 	 	 	OIM_reitar, fs_hc_swordsman
+male
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data\new_models\textures/Eu_new_reiters_lobster.tga
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_lobster_unarmoured.cas, 15
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_lobster_unarmoured.cas, 40
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_lobster_unarmoured.cas, 60
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_lobster_unarmoured.cas, max
+
+type 	 	 	 	new_eu_reiter_cuirass_lobster
+skeleton 	 	 	OIM_reitar, fs_hc_swordsman
+male
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data\new_models\textures/Eu_new_reiters_cuirass_lobster.tga
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_lobster_2.cas, 15
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_lobster_2.cas, 40
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_lobster_2.cas, 60
+model_flexi 	 	 	data\new_models\KLA_reiter_30yw_lobster_2.cas, max
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+type 	 	 	 	new_eu_arkebusier_kabasset
+skeleton 	 	 	OiM_dragun, fs_hc_swordsman
+male
+pbr_texture 			data\new_models\Textures/eu_arkebusiers_kabasset.tga
+texture					data\new_models\textures/eu_arkebusiers_kabasset.tga
+model_flexi 	 	 	data\new_models/eu_arkebusier_kabasset_2.cas, 15
+model_flexi 	 	 	data\new_models/eu_arkebusier_kabasset_2.cas, 40
+model_flexi 	 	 	data\new_models/eu_arkebusier_kabasset_2.cas, 60
+model_flexi 	 	 	data\new_models/eu_arkebusier_kabasset_2.cas, max
+
+
+type 	 	 	 	new_eu_arkebusier_kabasset_cuirass
+skeleton 	 	 	OiM_dragun, fs_hc_swordsman
+male
+pbr_texture 			data\new_models\Textures/eu_arkebusiers_kabasset_cuirass.tga
+texture					data\new_models\textures/eu_arkebusiers_kabasset_cuirass.tga
+model_flexi 	 	 	data\new_models/eu_arkebusier_kabasset_2.cas, 15
+model_flexi 	 	 	data\new_models/eu_arkebusier_kabasset_2.cas, 40
+model_flexi 	 	 	data\new_models/eu_arkebusier_kabasset_2.cas, 60
+model_flexi 	 	 	data\new_models/eu_arkebusier_kabasset_2.cas, max
+
+
 
 type 	 	 	 	harquebusier1
 skeleton 	 	 	OiM_dragun, fs_hc_swordsman
 male
-pbr_texture 			data\new_models\Textures/generic_pbr.tga
+pbr_texture 			data\new_models\Textures/generic_pbr_dark.tga
 texture					data/models_textures/austria_harquebuseer.tga
 model_flexi 	 	 	data/models_unit/danich_harquebuseer_hourse_high.cas, 15
 model_flexi 	 	 	data/models_unit/danich_harquebuseer_hourse_high.cas, 40
@@ -8654,7 +8780,7 @@ pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data/models_textures/russ_reitar.tga
 model_flexi 	 	 	data/models_unit/new_russ_reitar_high.cas, 15
 model_flexi 	 	 	data/models_unit/new_russ_reitar_high.cas, 40
-model_flexi 	 	 	data/models_unit/new_russ_reitar_lowest.cas, 60
+model_flexi	 	 	data/models_unit/new_russ_reitar_lowest.cas, 60
 model_flexi 	 	 	data/models_unit/new_russ_reitar_lowest.cas, max
 
 
@@ -8676,7 +8802,7 @@ model_flexi 	 	 	data/models_unit/demilancer_lowest.cas, max
 
 
 type				swedish_arquebusier
-skeleton			ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton			ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/sweden_kurland_harquebuseer.tga
@@ -8699,7 +8825,7 @@ model_flexi 	 	 	data/models_unit/austria_musketeer_low.cas, max
 
 
 type 	 	 	 	swedish_pikeman
-skeleton 	 	 	fs_twohand_spearman, fs_swordsman
+skeleton 	 	 	fs_RM_2hspear, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/sweden_kurland_pikeman.tga
@@ -8710,7 +8836,7 @@ model_flexi 	 	 	data/models_unit/kurland_pikeman_lowest.cas, max
 
 
 type 	 	 	 	swedish_pikeman_late
-skeleton 	 	 	fs_twohand_spearman
+skeleton 	 	 	fs_RM_2hspear
 male
 pbr_texture 			data\models_kla/textures/EW_Swe_Pikeman.tga
 texture					data\models_kla/textures/EW_Swe_Pikeman.tga
@@ -8721,7 +8847,7 @@ model_flexi 	 	 	data\models_kla/EW_Swe_Pikeman.cas, max
 
 
 type 	 	 	 	swedish_dragoons_late
-skeleton 	 	 	ntw_inf_ranged, fs_swordsman
+skeleton 	 	 	OiM_dragun, fs_hc_swordsman
 male
 pbr_texture 			data\models_kla/textures/EW_Swe_Line_Cav_GNW.tga
 texture					data\models_kla/textures/EW_Swe_Line_Cav_GNW.tga
@@ -8736,6 +8862,17 @@ skeleton 	 	 	fs_hc_swordsman
 male
 pbr_texture 			data\models_kla/textures/EW_Swe_Line_Cav_GNW.tga
 texture					data\models_kla/textures/EW_Swe_Line_Cav_GNW.tga
+model_flexi 	 	 	data\models_kla/EW_Swe_Line_Cav_melee_GNW.cas, 15
+model_flexi 	 	 	data\models_kla/EW_Swe_Line_Cav_melee_GNW.cas, 40
+model_flexi 	 	 	data\models_kla/EW_Swe_Line_Cav_melee_GNW.cas, 60
+model_flexi 	 	 	data\models_kla/EW_Swe_Line_Cav_melee_GNW.cas, max
+
+
+type 	 	 	 	swedish_cav_late_cuirass
+skeleton 	 	 	fs_hc_swordsman
+male
+pbr_texture 			data\models_kla/textures/EW_Swe_Line_CavArmor_GNW.tga
+texture					data\models_kla/textures/EW_Swe_Line_CavArmor_GNW.tga
 model_flexi 	 	 	data\models_kla/EW_Swe_Line_Cav_melee_GNW.cas, 15
 model_flexi 	 	 	data\models_kla/EW_Swe_Line_Cav_melee_GNW.cas, 40
 model_flexi 	 	 	data\models_kla/EW_Swe_Line_Cav_melee_GNW.cas, 60
@@ -8808,7 +8945,7 @@ model_flexi 	 	 	data/models_unit/austria_gorodskaya_strazha_low.cas, max
 
 
 type 	 	 	 	eu_arquebusiers
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/austria_harquebuseer.tga
@@ -8910,7 +9047,7 @@ model_flexi 	 	 	data/models_unit/austria_pikeman_low.cas, max
 
 
 type 	 	 	 	pikeman_hat
-skeleton 	 	 	fs_twohand_spearman, fs_swordsman
+skeleton 	 	 	fs_RM_2hspear, fs_swordsman
 male
 pbr_texture 			data/models_textures/austrian_reform_pikeman.tga
 texture					data/models_textures/austrian_reform_pikeman.tga
@@ -8924,7 +9061,7 @@ model_flexi 	 	 	data/models_unit/reform_pikeman.cas, max
 
 
 type 	 	 	 	spain_pikeman
-skeleton 	 	 	fs_twohand_spearman, fs_swordsman
+skeleton 	 	 	fs_RM_2hspear, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/spain_pikeman.tga
@@ -8935,7 +9072,7 @@ model_flexi 	 	 	data/models_unit/spain_pikeman_low.cas, max
 
 
 type 	 	 	 	spain_arquebusiers
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/new_models/Textures/spain_arquebusier.tga
@@ -8979,7 +9116,7 @@ model_flexi 	 	 	data\models_kla\EW_Ned_Cuirassier_Elite_SSW_cavaliers.cas, max
 
 
 type 	 	 	 	fra_musketeers
-skeleton 	 	 	OiM_dragun, fs_hc_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data\models_kla\textures/EW_Fre_Mousquetaires_de_la_Garde1_17th.tga
@@ -8990,7 +9127,7 @@ model_flexi 	 	 	data\models_kla\EW_Fre_Mousquetaires_de_la_Garde_17th.cas, max
 
 
 type 	 	 	 	fra_impact_pikes
-skeleton 	 	 	fs_twohand_spearman
+skeleton 	 	 	fs_RM_2hspear
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data\models_kla\textures/EW_Por_Pikeman.tga
@@ -9069,13 +9206,21 @@ type 	 	 	 	line_cav_hat
 skeleton 	 	 	OiM_dragun, fs_hc_swordsman
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
-texture					data\models_kla\textures\EW_Por_Dragoon_SSW.tga
-texture 	france, 	data\models_kla\textures\EW_Fre_Line_Cav_SSW.tga
-texture 	austria, 	data\models_kla\textures\EW_Prus_Dragoon_GNW.tga
-model_flexi 	 	 	data\models_kla\EW_Por_Dragoon_SSW.cas, 15
-model_flexi 	 	 	data\models_kla\EW_Por_Dragoon_SSW.cas, 40
-model_flexi 	 	 	data\models_kla\EW_Por_Dragoon_SSW.cas, 60
-model_flexi 	 	 	data\models_kla\EW_Por_Dragoon_SSW.cas, max
+texture					data\new_models\textures\eu_line_cav_hat.tga
+model_flexi 	 	 	data\new_models\eu_linecav_hat.cas, 15
+model_flexi 	 	 	data\new_models\eu_linecav_hat.cas, 40
+model_flexi 	 	 	data\new_models\eu_linecav_hat.cas, 60
+model_flexi 	 	 	data\new_models\eu_linecav_hat.cas, max
+
+type 	 	 	 	line_cav_coat
+skeleton 	 	 	OiM_dragun, fs_hc_swordsman
+male
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data\new_models\textures\eu_line_cav_coat.tga
+model_flexi 	 	 	data\new_models\eu_linecav_coat.cas, 15
+model_flexi 	 	 	data\new_models\eu_linecav_coat.cas, 40
+model_flexi 	 	 	data\new_models\eu_linecav_coat.cas, 60
+model_flexi 	 	 	data\new_models\eu_linecav_coat.cas, max
 
 
 type 	 	 	 	line_cav_tricorne
@@ -9117,19 +9262,8 @@ model_flexi 	 	 	data\models_kla\EW_Aus_Cuirassier_GNW.cas, 60
 model_flexi 	 	 	data\models_kla\EW_Aus_Cuirassier_GNW.cas, max
 
 
-type 	 	 	 	reform_pikemen
-skeleton 	 	 	fs_twohand_spearman, fs_swordsman
-male
-pbr_texture 			data\new_models\Textures/generic_pbr.tga
-texture					data\models_kla\textures/EW_Por_Pikeman.tga
-model_flexi 	 	 	data\models_kla\EW_Por_Pikeman.cas, 15
-model_flexi 	 	 	data\models_kla\EW_Por_Pikeman.cas, 40
-model_flexi 	 	 	data\models_kla\EW_Por_Pikeman.cas, 60
-model_flexi 	 	 	data\models_kla\EW_Por_Pikeman.cas, max
-
-
 type 	 	 	 	reform_musketeers
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/austrian_reform_musketiere.tga
 texture					data/models_textures/austrian_reform_musketiere.tga
@@ -9142,8 +9276,47 @@ model_flexi 	 	 	data/models_unit/reform_musketiere_high.cas, 60
 model_flexi 	 	 	data/models_unit/reform_musketiere_high.cas, max
 
 
+type 	 	 	 	reform_musketeers_new
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
+male
+;pbr_texture 			data/new_models/Textures/new_eu_reform_foot_head1.tga
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data/new_models/Textures/new_eu_reform_foot_head1.tga
+texture		england,	data/new_models/Textures/new_eu_reform_foot_head1_britain.tga
+texture		poland,	    data/new_models/Textures/new_eu_reform_foot_head1_poland.tga
+texture		rp,	    	data/new_models/Textures/new_eu_reform_foot_head1_poland.tga
+model_flexi 	 	 	data/new_models/reform_muskets_new.cas, 15
+model_flexi 	 	 	data/new_models/reform_muskets_new.cas, 40
+model_flexi 	 	 	data/new_models/reform_muskets_new.cas, 60
+model_flexi 	 	 	data/new_models/reform_muskets_new.cas, max
+
+
+type 	 	 	 	reform_pikemen
+skeleton 	 	 	fs_RM_2hspear, fs_swordsman
+male
+;pbr_texture 			data/new_models/Textures/new_eu_reform_foot_head1.tga
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data/new_models/Textures/new_eu_reform_pike.tga
+model_flexi 	 	 	data/new_models/reform_pike.cas, 15
+model_flexi 	 	 	data/new_models/reform_pike.cas, 40
+model_flexi 	 	 	data/new_models/reform_pike.cas, 60
+model_flexi 	 	 	data/new_models/reform_pike.cas, max
+
+type 	 	 	 	reform_pikemen_breastplate
+skeleton 	 	 	fs_RM_2hspear, fs_swordsman
+male
+;pbr_texture 			data/new_models/Textures/new_eu_reform_foot_head1.tga
+pbr_texture 			data\new_models\Textures/generic_pbr.tga
+texture					data/new_models/Textures/new_eu_reform_pike_breastplate.tga
+model_flexi 	 	 	data/new_models/reform_pike.cas, 15
+model_flexi 	 	 	data/new_models/reform_pike.cas, 40
+model_flexi 	 	 	data/new_models/reform_pike.cas, 60
+model_flexi 	 	 	data/new_models/reform_pike.cas, max
+
+
+
 type 	 	 	 	reform_grenadiers
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/austrian_reform_grenadier.tga
 texture					data/models_textures/austrian_reform_grenadier.tga
@@ -9154,7 +9327,7 @@ model_flexi 	 	 	data/models_unit/reform_grenadier_high.cas, max
 
 
 type 	 	 	 	reform_guard_muskets
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data\new_models\Textures/generic_pbr_dark.tga
 texture					data/models_textures/austrian_reform_guard_musketiere.tga
@@ -9182,7 +9355,7 @@ model_flexi 	 	 	data/models_unit/reform_dragoon_low.cas, max
 
 
 type 	 	 	 	line_inf_tricorne
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_twohand_spearman
+skeleton 	 	 	ntw_inf_ranged, fs_RM_2hspear
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data\models_kla\textures\EW_Aus_Musketeer_GNW.tga
@@ -9205,7 +9378,7 @@ model_flexi 	 	 	data\models_kla\EW_Aus_Musketeer_GNW.cas, max
 
 
 type 	 	 	 	line_inf_hat
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_twohand_spearman
+skeleton 	 	 	ntw_inf_ranged, fs_RM_2hspear
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data\models_kla\textures\EW_Prus_Musketeer_Guard_GNW.tga
@@ -9218,7 +9391,7 @@ model_flexi 	 	 	data\models_kla\EW_Den_Musketeer_Guard_GNW.cas, max
 
 
 type 	 	 	 	grenadiers_inf
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_twohand_spearman
+skeleton 	 	 	ntw_inf_ranged, fs_RM_2hspear
 male
 pbr_texture 			data\new_models\Textures/generic_pbr.tga
 texture					data\models_kla\textures\EW_Aus_Grenadier_GNW.tga
@@ -9252,7 +9425,7 @@ model_flexi 	 	 	data/new_models/EW_Ned_Armoured_Horse_SSW.cas, max
 
 
 type				bande_nere_pikes
-skeleton			fs_twohand_spearman, fs_swordsman
+skeleton			fs_RM_2hspear, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/bande_nere_pike.tga
 texture					data/new_models/textures/bande_nere_pike.tga
@@ -9263,7 +9436,7 @@ model_flexi 	 	 	data/new_models/bande_nere_pike.cas, max
 
 
 type				bande_nere_arquebus
-skeleton			ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton			ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/bande_nere_arquebus.tga
 texture					data/new_models/textures/bande_nere_arquebus.tga
@@ -9310,7 +9483,7 @@ model_flexi 	 	 	data/models_unit/EOI_azap_low.cas, max
 
 
 type 	 	 	 	tufekchi
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/EOI_tufekchi.tga
 texture					data/models_textures/EOI_tufekchi.tga
@@ -9332,7 +9505,7 @@ model_flexi 	 	 	data/models_unit/zerhli_neher_low.cas, max
 
 
 type 	 	 	 	jannissaries_musket
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/EOI_sipahi_mushket.tga
 texture					data/models_textures/EOI_sipahi_mushket.tga
@@ -9365,7 +9538,7 @@ model_flexi 	 	 	data/models_unit/EOI_solaks_lowest.cas, max
 
 
 type 	 	 	 	head_riskers_sipahi
-skeleton 	 	 	fs_pishalnik, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/EOI_serdengecti_sipahi.tga
 texture					data/models_textures/EOI_serdengecti_sipahi.tga
@@ -9387,7 +9560,7 @@ model_flexi 	 	 	data/models_unit/sipah_infantry_low.cas, max
 
 
 type 	 	 	 	sekban
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/EOI_sekban.tga
 texture					data/models_textures/EOI_sekban.tga
@@ -9537,7 +9710,7 @@ model_flexi 	 	 	data/models_unit/balkan_archer_low.cas, max
 
 
 type				roman_spearman
-skeleton			fs_twohand_spearman
+skeleton			fs_RM_2hspear
 male
 pbr_texture 			data/models_textures/roman_spearman.TGA
 texture					data/models_textures/roman_spearman.TGA
@@ -9572,7 +9745,7 @@ model_flexi 	 	 	data/models_unit/valah_gusar_high.cas, max
 
 
 type 	 	 	 	danube_foot
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/gaiduk_valah.TGA
 texture					data/models_textures/gaiduk_valah.TGA
@@ -9584,7 +9757,7 @@ model_flexi 	 	 	data/models_unit/gaiduk_valah_high.cas, max
 
 
 type 	 	 	 	balkan_musketeer
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/balkan_musketeer.tga
 texture					data/models_textures/balkan_musketeer.tga
@@ -9610,7 +9783,7 @@ model_flexi 	 	 	data/models_unit/balkan_starshina_lowest.cas, max
 
 
 type 	 	 	 	roman_dorobants
-skeleton 	 	 	ntw_inf_ranged_fast, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/rp_pospolito_rushanne.tga
 texture					data/models_textures/rp_pospolito_rushanne.tga
@@ -9642,6 +9815,26 @@ model_flexi 	 	 	data/models_unit/hussarok_early_high.cas, 15
 model_flexi 	 	 	data/models_unit/hussarok_early_high.cas, 40
 model_flexi 	 	 	data/models_unit/hussarok_early_lowest.cas, 60
 model_flexi 	 	 	data/models_unit/hussarok_early_lowest.cas, max
+
+type				hussarok_early_round
+skeleton			fs_hc_spearman, fs_hc_swordsman
+male
+pbr_texture 			data/new_models/Textures/hussarok_chain_round.tga
+texture					data/new_models/Textures/hussarok_chain_round.tga
+model_flexi 	 	 	data/new_models/hussarok_early_round.cas, 15
+model_flexi 	 	 	data/new_models/hussarok_early_round.cas, 40
+model_flexi 	 	 	data/new_models/hussarok_early_round.cas, 60
+model_flexi 	 	 	data/new_models/hussarok_early_round.cas, max
+
+type				hussarok_early_hussar
+skeleton			fs_hc_spearman, fs_hc_swordsman
+male
+pbr_texture 			data/new_models/Textures/hussarok_chain_hussar.tga
+texture					data/new_models/Textures/hussarok_chain_hussar.tga
+model_flexi 	 	 	data/new_models/hussarok_early_hussar.cas, 15
+model_flexi 	 	 	data/new_models/hussarok_early_hussar.cas, 40
+model_flexi 	 	 	data/new_models/hussarok_early_hussar.cas, 60
+model_flexi 	 	 	data/new_models/hussarok_early_hussar.cas, max
 
 
 type 	 	 	 	balkan_hussarok
@@ -9679,7 +9872,7 @@ model_flexi 	 	 	data/models_unit/pikiner_valah_high.cas, max
 
 
 type				wallachian_dorobant
-skeleton			ntw_inf_ranged_fast, fs_swordsman
+skeleton			ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/mushketer_valah.tga
 texture					data/models_textures/mushketer_valah.tga
@@ -9690,7 +9883,7 @@ model_flexi 	 	 	data/models_unit/mushketer_valah_high.cas, max
 
 
 type 	 	 	 	black_dorobant
-skeleton 	 	 	ntw_inf_ranged_fast, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/cherniy_dorobant.tga
 texture					data/models_textures/cherniy_dorobant.tga
@@ -9715,7 +9908,7 @@ model_flexi 	 	 	data/models_unit/saxon_militia_lowest.cas, max
 
 
 type 	 	 	 	hungarian_foot
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/gaiduk_vengr.tga
 texture					data/models_textures/gaiduk_vengr.tga
@@ -9726,7 +9919,7 @@ model_flexi 	 	 	data/models_unit/gaiduk_vengr_high.cas, max
 
 
 type				hungarian_haiduk
-skeleton			ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton			ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/magyar_haiduk.tga
 texture					data/models_textures/magyar_haiduk.tga
@@ -9737,7 +9930,7 @@ model_flexi 	 	 	data/models_unit/haiduk_lowest.cas, max
 
 
 type				hungarian_pike
-skeleton			fs_twohand_spearman, fs_swordsman
+skeleton			fs_RM_2hspear, fs_swordsman
 male
 pbr_texture 			data/models_textures/rushanne_pike.tga
 texture					data/models_textures/rushanne_pike.tga
@@ -9745,6 +9938,58 @@ model_flexi 	 	 	data/models_unit/rp_pospolito_rushanne_pike_high.cas, 15
 model_flexi 	 	 	data/models_unit/rp_pospolito_rushanne_pike_med.cas, 40
 model_flexi 	 	 	data/models_unit/rp_pospolito_rushanne_pike_low.cas, 60
 model_flexi 	 	 	data/models_unit/rp_pospolito_rushanne_pike_lowest.cas, max
+
+type				szekely_musket
+skeleton			ntw_inf_ranged, fs_swordsman
+male
+pbr_texture 			data/new_models/Textures/szekely_musket_sabre.tga
+texture					data/new_models/Textures/szekely_musket_sabre.tga
+model_flexi 	 	 	data/new_models/szekely_musket.cas, 15
+model_flexi 	 	 	data/new_models/szekely_musket.cas, 40
+model_flexi 	 	 	data/new_models/szekely_musket.cas, 60
+model_flexi 	 	 	data/new_models/szekely_musket.cas, max
+
+
+type				szekely_hussar_unarmoured
+skeleton			OIM_reitar, fs_hc_swordsman
+male
+pbr_texture 			data/new_models/Textures/szekely_hussar_unarmoured.tga
+texture					data/new_models/Textures/szekely_hussar_unarmoured.tga
+model_flexi 	 	 	data/new_models/szekely_hussar_unarmoured.cas, 15
+model_flexi 	 	 	data/new_models/szekely_hussar_unarmoured.cas, 40
+model_flexi 	 	 	data/new_models/szekely_hussar_unarmoured.cas, 60
+model_flexi 	 	 	data/new_models/szekely_hussar_unarmoured.cas, max
+
+type				szekely_hussar_lance_helmet
+skeleton			OIM_reitar, fs_hc_spearman
+male
+pbr_texture 			data/new_models/Textures/szekely_hussar_lance_helmet.tga
+texture					data/new_models/Textures/szekely_hussar_lance_helmet.tga
+model_flexi 	 	 	data/new_models/szekely_hussar_lance_helmet.cas, 15
+model_flexi 	 	 	data/new_models/szekely_hussar_lance_helmet.cas, 40
+model_flexi 	 	 	data/new_models/szekely_hussar_lance_helmet.cas, 60
+model_flexi 	 	 	data/new_models/szekely_hussar_lance_helmet.cas, max
+
+type				szekely_hussar_lance_helmet_shield
+skeleton			OIM_reitar, fs_hc_spearman
+male
+pbr_texture 			data/new_models/Textures/szekely_hussar_helmet_lance_shield.tga
+texture					data/new_models/Textures/szekely_hussar_helmet_lance_shield.tga
+model_flexi 	 	 	data/new_models/szekely_hussar_lance_helmet_shield.cas, 15
+model_flexi 	 	 	data/new_models/szekely_hussar_lance_helmet_shield.cas, 40
+model_flexi 	 	 	data/new_models/szekely_hussar_lance_helmet_shield.cas, 60
+model_flexi 	 	 	data/new_models/szekely_hussar_lance_helmet_shield.cas, max
+
+
+type				haidu_cav
+skeleton			OiM_dragun, fs_hc_swordsman
+male
+pbr_texture 			data/new_models/Textures/haidus_cav.tga
+texture					data/new_models/Textures/haidus_cav.tga
+model_flexi 	 	 	data/new_models/haidu_cav.cas, 15
+model_flexi 	 	 	data/new_models/haidu_cav.cas, 40
+model_flexi 	 	 	data/new_models/haidu_cav.cas, 60
+model_flexi 	 	 	data/new_models/haidu_cav.cas, max
 
 
 type 	 	 	 	hungarian_hussar
@@ -9759,7 +10004,7 @@ model_flexi 	 	 	data/models_unit/veng_gusar_high.cas, max
 
 
 type 	 	 	 	eu_musketeer
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/models_textures/austria_musketeer.tga
 texture					data/models_textures/austria_musketeer.tga
@@ -9818,7 +10063,7 @@ model_flexi 	 	 	data/models_unit/arbalethik_gaiduk_high.cas, max
 
 
 type 	 	 	 	gaiduk_spear
-skeleton 	 	 	fs_twohand_spearman
+skeleton 	 	 	fs_RM_2hspear
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/kopeishik_gaiduk.tga
@@ -9829,7 +10074,7 @@ model_flexi 	 	 	data/models_unit/kopeishik_gaiduk_high.cas, max
 
 
 type 	 	 	 	gaiduk_tufekchi
-skeleton 	 	 	ntw_inf_ranged_fast, fs_fast_dagger
+skeleton 	 	 	ntw_inf_ranged, fs_fast_dagger
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/musketer_posleref.tga
@@ -9840,7 +10085,7 @@ model_flexi 	 	 	data/models_unit/musketer_posleref_high.cas, max
 
 
 type 	 	 	 	mont_panduri
-skeleton 	 	 	ntw_inf_ranged_fast, fs_fast_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_fast_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/musketer_doreform.tga
@@ -9851,7 +10096,7 @@ model_flexi 	 	 	data/models_unit/musketer_doreform_high.cas, max
 
 
 type 	 	 	 	mont_haiduk
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/mushketer_gaiduk.tga
@@ -9985,7 +10230,7 @@ model_flexi 	 	 	data/models_unit/tatar_lancers_low.cas, max
 
 
 type 	 	 	 	swiss_pikemen
-skeleton 	 	 	fs_twohand_spearman, fs_swordsman
+skeleton 	 	 	fs_RM_2hspear, fs_swordsman
 male
 ;pbr_texture 			data/new_models/Textures/generic_pbr.tga
 pbr_texture 			data/models_textures/swiss_pikeman_middle.tga
@@ -10009,7 +10254,7 @@ model_flexi 	 	 	data/models_unit/swiss_halberdier_middle_low.cas, max
 
 
 type 	 	 	 	swiss_heavy_pikemen 	 	 	 	 	 	 	 	 	 	 	
-skeleton 	 	 	fs_twohand_spearman, fs_swordsman
+skeleton 	 	 	fs_RM_2hspear, fs_swordsman
 male
 ;pbr_texture 			data/new_models/Textures/generic_pbr.tga
 pbr_texture 			data/models_textures/swiss_heavy_pikeman.tga
@@ -10032,7 +10277,7 @@ model_flexi 	 	 	data/models_unit/venice_starshina_lowest.cas, max
 
 
 type 	 	 	 	carabinieri
-skeleton 	 	 	ntw_inf_ranged_fast, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/new_carabiner.tga
@@ -10042,8 +10287,11 @@ model_flexi 	 	 	data/models_unit/carabiner_lowest.cas, 60
 model_flexi 	 	 	data/models_unit/carabiner_lowest.cas, max
 
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
 type 	 	 	 	cossacks_golota_spear 	 	 	 	 	 	 	 	 	 	 	 
-skeleton 	 	 	fs_twohand_spearman
+skeleton 	 	 	fs_RM_2hspear
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/Cossacks_Golota.tga
@@ -10054,7 +10302,7 @@ model_flexi 	 	 	data/models_unit/Cossacks_Golota_Spear_lowest.cas, max
 
 
 type 	 	 	 	cossacks_golota_samopal
-skeleton 	 	 	ntw_inf_ranged_fast, fs_fast_dagger
+skeleton 	 	 	ntw_inf_ranged, fs_fast_dagger
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/Cossacks_Golota.tga
@@ -10065,7 +10313,7 @@ model_flexi 	 	 	data/models_unit/cossacks_golota_samopal_lowest.cas, max
 
 
 type 	 	 	 	cossacks_raiders
-skeleton 	 	 	fs_pishalnik, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr_dark.tga
 texture					data/models_textures/cossacks_netiaga.tga
@@ -10098,7 +10346,7 @@ model_flexi 	 	 	data/models_unit/cossacks_kharakternik_lowest.cas, max
 
 
 type 	 	 	 	cossacks_plastun
-skeleton 	 	 	ntw_inf_ranged_fast, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/cossacks_plastun.tga
@@ -10109,7 +10357,7 @@ model_flexi 	 	 	data/models_unit/cossacks_plastun_lowest.cas, max
 
 
 type 	 	 	 	cossacks_zaporozhec
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 ;pbr_texture 			data/new_models/Textures/generic_pbr_dark.tga
 pbr_texture 			data/models_textures/cossacks_zaporozhec.tga
@@ -10121,7 +10369,7 @@ model_flexi 	 	 	data/models_unit/cossacks_zaporozhec_lowest.cas, max
 
 
 type 	 	 	 	cossacks_sichevoy_ded
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/cossacks_sichevoy_ded.tga
@@ -10132,7 +10380,7 @@ model_flexi 	 	 	data/models_unit/cossacks_sichevoy_ded_lowest.cas, max
 
 
 type 	 	 	 	cossacks_companiets
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_fast_dagger
+skeleton 	 	 	ntw_inf_ranged, fs_fast_dagger
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/cossacks_companiets.tga
@@ -10141,6 +10389,16 @@ model_flexi 	 	 	data/models_unit/cossacks_companiets_high.cas, 40
 model_flexi 	 	 	data/models_unit/cossacks_companiets_high.cas, 60
 model_flexi 	 	 	data/models_unit/cossacks_companiets_high.cas, max
 
+
+type 	 	 	 	cossacks_serdyuk
+skeleton 	 	 	ntw_inf_ranged, fs_fast_dagger
+male
+pbr_texture 			data/new_models/Textures/generic_pbr_dark.tga
+texture					data/models_textures/cossacks_serdyuk.tga
+model_flexi 	 	 	data/models_unit/cossacks_serdyuk_high.cas, 15
+model_flexi 	 	 	data/models_unit/cossacks_serdyuk_high.cas, 40
+model_flexi 	 	 	data/models_unit/cossacks_serdyuk_low.cas, 60
+model_flexi 	 	 	data/models_unit/cossacks_serdyuk_low.cas, max
 
 type 	 	 	 	cossacks_companiets_horse
 skeleton 	 	 	OiM_dragun, fs_hc_swordsman
@@ -10253,7 +10511,7 @@ model_flexi 	 	 	data/models_unit/donec_kazak_ulan_low.cas, max
 
 
 type 	 	 	 	donec_kazak
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/donec_kazak.tga
@@ -10313,7 +10571,7 @@ model_flexi 	 	 	data\new_models/scottish_spearmaster_high.cas, max
 
 
 type 	 	 	 	scottish_musketeers
-skeleton 	 	 	ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton 	 	 	ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr_dark.tga
 texture					data/models_textures/scottish_musketeere.tga
@@ -10323,7 +10581,7 @@ model_flexi 	 	 	data/models_unit/scottish_musketeere_lowest.cas, 60
 model_flexi 	 	 	data/models_unit/scottish_musketeere_lowest.cas, max
 
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; SAFAVIDS / KHIVA
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; KALMYK
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
@@ -10337,6 +10595,32 @@ model_flexi 	 	 	data/models_unit/Kalmik_nobel_high.cas, 15
 model_flexi 	 	 	data/models_unit/Kalmik_nobel_high.cas, 40
 model_flexi 	 	 	data/models_unit/Kalmik_nobel_lowest.cas, 60
 model_flexi 	 	 	data/models_unit/Kalmik_nobel_lowest.cas, max
+
+
+type				Kalmik_nomad
+skeleton			fs_hc_archer, fs_hc_spearman
+male
+pbr_texture 			data/new_models/Textures/generic_pbr.tga
+texture					data/models_textures/Kalmik_nomad.tga
+model_flexi 	 	 	data/models_unit/Kalmik_nomad_high.cas, 15
+model_flexi 	 	 	data/models_unit/Kalmik_nomad_high.cas, 40
+model_flexi 	 	 	data/models_unit/Kalmik_nomad_low.cas, 60
+model_flexi 	 	 	data/models_unit/Kalmik_nomad_low.cas, max
+
+
+type				Kalmik_archer
+skeleton			fs_hc_archer, fs_hc_swordsman
+male
+pbr_texture 			data/new_models/Textures/generic_pbr.tga
+texture					data/models_textures/Kalmik_nobel.tga
+model_flexi 	 	 	data/models_unit/Kalmik_nobel_archer_high.cas, 15
+model_flexi 	 	 	data/models_unit/Kalmik_nobel_archer_high.cas, 40
+model_flexi 	 	 	data/models_unit/Kalmik_nobel_archer_lowest.cas, 60
+model_flexi 	 	 	data/models_unit/Kalmik_nobel_archer_lowest.cas, max
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; SAFAVIDS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
 type				Kuzul_bashi
@@ -10361,19 +10645,8 @@ model_flexi 	 	 	data/models_unit/gulam_horse_lowest.cas, 60
 model_flexi 	 	 	data/models_unit/gulam_horse_lowest.cas, max
 
 
-type				Kalmik_nomad
-skeleton			fs_hc_archer, fs_hc_spearman
-male
-pbr_texture 			data/new_models/Textures/generic_pbr.tga
-texture					data/models_textures/Kalmik_nomad.tga
-model_flexi 	 	 	data/models_unit/Kalmik_nomad_high.cas, 15
-model_flexi 	 	 	data/models_unit/Kalmik_nomad_high.cas, 40
-model_flexi 	 	 	data/models_unit/Kalmik_nomad_low.cas, 60
-model_flexi 	 	 	data/models_unit/Kalmik_nomad_low.cas, max
-
-
 type				gulam_tufeng
-skeleton			ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton			ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/strong_gulam.tga
@@ -10415,17 +10688,18 @@ model_flexi 	 	 	data/models_unit/chernay_cost_high.cas, 40
 model_flexi 	 	 	data/models_unit/chernay_cost_lowest.cas, 60
 model_flexi 	 	 	data/models_unit/chernay_cost_lowest.cas, max
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; KHIVA / BUKHARAT / KAZAKHS
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-type				Kalmik_archer
-skeleton			fs_hc_archer, fs_hc_swordsman
+type				nuker_heavy_lance
+skeleton			fs_hc_spearman, fs_hc_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
-texture					data/models_textures/Kalmik_nobel.tga
-model_flexi 	 	 	data/models_unit/Kalmik_nobel_archer_high.cas, 15
-model_flexi 	 	 	data/models_unit/Kalmik_nobel_archer_high.cas, 40
-model_flexi 	 	 	data/models_unit/Kalmik_nobel_archer_lowest.cas, 60
-model_flexi 	 	 	data/models_unit/Kalmik_nobel_archer_lowest.cas, max
-
+texture					data/models_textures/gulam_horse.tga
+model_flexi 	 	 	data/models_unit/gulam_horse_high.cas, 15
+model_flexi 	 	 	data/models_unit/gulam_horse_high.cas, 40
+model_flexi 	 	 	data/models_unit/gulam_horse_lowest.cas, 60
+model_flexi 	 	 	data/models_unit/gulam_horse_lowest.cas, max
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; IMERETI
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -10454,7 +10728,7 @@ model_flexi 	 	 	data/models_unit/imereti_infantry_spear_lowest.cas, max
 
 
 type				imereti_light_musket
-skeleton			ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton			ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/imereti_infantry.tga
@@ -10465,7 +10739,7 @@ model_flexi 	 	 	data/models_unit/imereti_infantry_mushket_lowest.cas, max
 
 
 type				imereti_musket
-skeleton			ntw_inf_ranged_tir_slow, fs_swordsman
+skeleton			ntw_inf_ranged, fs_swordsman
 male
 pbr_texture 			data/new_models/Textures/generic_pbr.tga
 texture					data/models_textures/imereti_infantry_med.tga

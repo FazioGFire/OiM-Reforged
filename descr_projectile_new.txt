@@ -396,28 +396,10 @@ model		data/models_missile/missile_scorpion_bolt_low.CAS,  max
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;
+;;02/07/2024: +0.10 to accuracy_vs_units of all guns, except salvo
 
 
 projectile musket 
-;destroy_after_max_range_percent_and_variation   33 92
-;destroy_after_max_range_percent_and_variation   33   92
-;effect 			small_arrow_trail_set
-effect			musket ;effect_only
-effect_offset		-3
-damage			0
-radius			0.2
-accuracy_vs_units		0.35
-affected_by_rain
-min_angle		-60 
-max_angle		40 
-velocity		110
-ground_shatter
-display			aimed
-effect_only 
-;model           data/models_missile/sling_stone.cas, max
-
-
-projectile musket_low 
 ;destroy_after_max_range_percent_and_variation   33 92
 ;destroy_after_max_range_percent_and_variation   33   92
 ;effect 			small_arrow_trail_set
@@ -436,6 +418,25 @@ effect_only
 ;model           data/models_missile/sling_stone.cas, max
 
 
+projectile musket_low 
+;destroy_after_max_range_percent_and_variation   33 92
+;destroy_after_max_range_percent_and_variation   33   92
+;effect 			small_arrow_trail_set
+effect			musket ;effect_only
+effect_offset		-3
+damage			0
+radius			0.2
+accuracy_vs_units		0.55
+affected_by_rain
+min_angle		-60 
+max_angle		40 
+velocity		110
+ground_shatter
+display			aimed
+effect_only 
+;model           data/models_missile/sling_stone.cas, max
+
+
 projectile musket_high 
 ;destroy_after_max_range_percent_and_variation   33 92
 ;destroy_after_max_range_percent_and_variation   33   92
@@ -444,7 +445,7 @@ effect			musket ;effect_only
 effect_offset		-3
 damage			0
 radius			0.2
-accuracy_vs_units		0.25
+accuracy_vs_units		0.35
 affected_by_rain
 min_angle		-60 
 max_angle		40 
@@ -463,7 +464,7 @@ effect			musket ;effect_only
 effect_offset		-3
 damage			0
 radius			0.2
-accuracy_vs_units		0.30
+accuracy_vs_units		0.40
 affected_by_rain
 min_angle		-60 
 max_angle		40 
@@ -482,7 +483,7 @@ effect			musket ;effect_only
 effect_offset		-3
 damage			0
 radius			0.2
-accuracy_vs_units		0.40
+accuracy_vs_units		0.50
 affected_by_rain
 min_angle		-60 
 max_angle		40 
@@ -519,7 +520,7 @@ effect			musket ;effect_only
 effect_offset		-3
 damage			0
 radius			0.2
-accuracy_vs_units		0.41
+accuracy_vs_units		0.50
 affected_by_rain
 min_angle		-60 
 max_angle		40 
@@ -538,7 +539,7 @@ effect			musket ;effect_only
 effect_offset		-3
 damage			0
 radius			0.2
-accuracy_vs_units		0.44
+accuracy_vs_units		0.56
 affected_by_rain
 min_angle		-60 
 max_angle		40 
@@ -557,7 +558,7 @@ effect			musket ;effect_only
 effect_offset		-3
 damage			0
 radius			0.2
-accuracy_vs_units		0.52
+accuracy_vs_units		0.63
 affected_by_rain
 min_angle		-60 
 max_angle		40 
